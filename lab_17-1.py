@@ -1,10 +1,8 @@
 # Author: CRS 04/11/22
 import math
 class Circle():
-    def get_area(radius):
-        area = math.pi * (radius ** 2)
-        return area
+    def get_area(self, radius = 3):
+        return math.pi * (radius ** 2)
 
 Circle1 = Circle()
-Circle1.get_area(3)
-print(Circle1)
+print(Circle1.get_area())
